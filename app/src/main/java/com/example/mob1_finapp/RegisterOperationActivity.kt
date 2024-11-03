@@ -31,14 +31,14 @@ class RegisterOperationActivity : AppCompatActivity() {
 
         // Verifica se a descrição é uma string válida (apenas letras e espaços)
         if (description.isEmpty() || !description.matches(Regex("^[A-Za-zÀ-ÿ ]+$"))) {
-            val toast = Toast.makeText(this, "A descrição deve conter apenas letras.", Toast.LENGTH_SHORT)
+            val toast = Toast.makeText(this, getString(R.string.toast_description_error), Toast.LENGTH_SHORT)
             toast.setGravity(android.view.Gravity.TOP or android.view.Gravity.CENTER_HORIZONTAL, 0, 50)
             toast.show()
             return
         }
 
         if (value == null) {
-            val toast = Toast.makeText(this, "Por favor, insira um valor numérico válido.", Toast.LENGTH_SHORT)
+            val toast = Toast.makeText(this,getString(R.string.toast_value_error) , Toast.LENGTH_SHORT)
             toast.setGravity(android.view.Gravity.TOP or android.view.Gravity.CENTER_HORIZONTAL, 0, 50)
             toast.show()
             return

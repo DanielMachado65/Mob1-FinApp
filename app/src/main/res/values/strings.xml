@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Mob1-FinApp</string>
+    <string name="title">FinApp</string>
+    <string name="subtitle">Auxiliando sua vida financeira</string>
+    <string name="button_register">Cadastrar</string>
+    <string name="button_statement">Extrato</string>
+    <string name="button_exit">Sair</string>
+    <string name="toast_description_error">A descrição deve conter apenas letras.</string>
+    <string name="toast_value_error">Por favor, insira um valor numérico válido.</string>
+    <string name="toast_operation_success">Operação adicionada com sucesso!</string>
+    <string name="description_register_operation">Descrição</string>
+    <string name="value_register_operation">Valor</string>
+    <string name="type_debit">Débito</string>
+    <string name="type_credit">Crédito</string>
+    <string name="button_save">Salvar</string>
+    <string name="empty_list">Nenhuma operação registrada.</string>
 </resources>

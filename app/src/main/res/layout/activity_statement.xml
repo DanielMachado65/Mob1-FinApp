@@ -8,7 +8,7 @@
         android:id="@+id/emptyMessageTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nenhuma operação registrada."
+        android:text="@string/empty_list"
         android:textSize="16sp"
         android:visibility="gone"
         app:layout_constraintTop_toTopOf="parent"

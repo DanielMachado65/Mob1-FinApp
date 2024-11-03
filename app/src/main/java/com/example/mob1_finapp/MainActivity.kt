@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
                 val description = it.getStringExtra("description") ?: return@let
                 val value = it.getDoubleExtra("value", 0.0)
                 operationsList.add(FinancialOperation(type, description, value))
-                Toast.makeText(this, "Operação adicionada com sucesso!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.toast_operation_success), Toast.LENGTH_SHORT).show()
             }
         }
     }
